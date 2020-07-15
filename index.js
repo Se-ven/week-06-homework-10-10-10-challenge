@@ -95,6 +95,18 @@ showMeTheMoney()
  @Test - Make a function call of  `showTheFifties()`
 */
 
+// Struggling to still get it to only log to the console the specific numbers. 
+// I have accidentally set the statement on line 106 as a boolean evaluated statement, 
+// but I don't know how else to write it. 
+/*
+showTheFifties = (number) => {
+    for (i = 0; i < 201; i++) {
+        console.log(number > 49 && number < 60)
+    };
+    console.log(number)
+}
+console.log(showTheFifties(50))
+*/
 
 
 /*
@@ -103,6 +115,15 @@ showMeTheMoney()
  @Example - Expect an array returned with value of [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
  @Test - console.log the result of a function call of  `getTheTwenties()` and expect to see an array value of [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
 */
+
+getTheTwenties = (numbers) => {
+    let showMeTwenties = []
+    if (number > 19) {
+        push.number.showMeTwenties
+    }
+
+
+}
 
 /*
  @Challenge 06 - Write a function that accepts an array names. Name the function `sayHiToJim` that loops through the array of names.
